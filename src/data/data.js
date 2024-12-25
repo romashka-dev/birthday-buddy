@@ -1,4 +1,4 @@
-const Data = [
+export const data = [
   {
     id: 1,
     name: 'Bertie Yates',
@@ -30,5 +30,3 @@ const Data = [
     image: 'https://www.course-api.com/images/people/person-5.jpeg',
   },
 ]
-
-export default Data
