@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { data } from '../src/data/data'
 import List from './components/List'
+import Button from './components/Button'
 
 const App = () => {
   const [people, setPeople] = useState(data)
@@ -11,13 +12,11 @@ const App = () => {
         <section className="container">
           <h3>{people.length} birthdays today</h3>
           <List people={people} />
-          <button
-            type="button"
-            className="btn btn-block"
-            onClick={() => setPeople([])}
-          >
-            clear all
-          </button>
+          {people.length < 1 ? (
+            <Button text="reset" onClick={() => setPeople(data)} />
+          ) : (
+            <Button text="clear all" onClick={() => setPeople([])} />
+          )}
         </section>
       </main>
     </>
