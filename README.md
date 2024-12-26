@@ -1,4 +1,4 @@
-# Birthday Buddy
+# Birthday Buddy °🥂⋆.ೃ🍾࿔\*:･
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0286bf9b-fd8c-4fbb-a1c7-28b10a782261/deploy-status)](https://app.netlify.com/sites/bday-buddy/deploys)
 This ReactJS application demonstrates the basics of working with state, lists, and components.
@@ -30,7 +30,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/airSlate-auth.git
+git clone https://github.com/yourusername/birthday-buddy.git
 cd airSlate-auth
 ```
 
