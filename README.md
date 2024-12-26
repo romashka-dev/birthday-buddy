@@ -1,39 +1,57 @@
+# Birthday Buddy
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0286bf9b-fd8c-4fbb-a1c7-28b10a782261/deploy-status)](https://app.netlify.com/sites/bday-buddy/deploys)
+This ReactJS application demonstrates the basics of working with state, lists, and components.
+
 ## Figma URL
 
 [Birthday Buddy](https://www.figma.com/file/e2vsLe9DMnXZIygNHkwGL1/Birthday-buddy?node-id=0%3A1&t=AGNWdO5QQGOoNCfD-1)
 
-## Steps
+## The development process included the following steps:
 
-- don't worry about CSS, checkout example image
+**1. Data Import:** An array of objects containing information about people (name, age, and image URL) is used as the initial data source.
+**2. State Setup:** The data is integrated into the component using the useState hook for dynamic management.
+**3. List Rendering:** The List and Person components display the list of people using the map method.
+**4. Clear Button:** Functionality to clear the list by resetting the state has been implemented.
 
-#### Import Data
+## Getting Started
 
-In App.jsx, import the data (from data.js) to be rendered as an array of objects. Each object should represent a person and contain properties such as name, age, and image URL.
+Follow these steps to set up the project on your local machine:
 
-#### Setup State Variable
+### Prerequisites
 
-Then, set up the data as a state variable using the useState hook. This will allow the data to be modified and have those changes automatically reflected in the rendered output.
+Ensure you have the following installed:
 
-#### Iterate and Render
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-Display the number of items in the list by using the length property of the state variable. This information can be displayed using plain text or added to a message or heading element.
+### Installation
 
-To render the list of people, iterate over the data array using the map method. For each item in the array, render an image element (hint : use inline styles to make width smaller).Additionally, render the person's name and age as plain text.
+1. **Clone the repository:**
 
-Create a List component to hold the rendered items. This component can be a simple div element containing the list of Person components.
+```bash
+git clone https://github.com/yourusername/airSlate-auth.git
+cd airSlate-auth
+```
 
-Create a Person component to render the information for each person. This component should receive the person data as props and render the image, name, and age information.
+2. **Install dependencies:**
 
-#### Clear List
+```
+npm install
+# or
+yarn install
+```
 
-In App.jsx, add a button to clear the list, and set up the functionality by defining a function that resets the state variable to an empty array.
+3. **Start the development server:**
 
-Overall, the flow of the application should look something like this:
+```
+npm run dev
+# or
+yarn dev
+```
 
-- Import the data you want to render in App.jsx.
-- Set up the data as a state variable using useState.
-- Use the map method to iterate over the data array and render a Person component for each person.
-- Each Person component should render an image with a style prop to control the width, the person's name, and the person's age.
-- Create a List component that holds the rendered items.
-- Create a button with functionality to clear the list.
-- Display the number of items in the list using the length property of the state variable. This can be rendered using plain text or added to a message or heading element.
+4. **Open the application in your browser:**
+
+```
+http://localhost:5173
+```
