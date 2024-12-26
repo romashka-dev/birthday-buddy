@@ -1,6 +1,7 @@
 # Birthday Buddy °🥂⋆.ೃ🍾࿔\*:･
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0286bf9b-fd8c-4fbb-a1c7-28b10a782261/deploy-status)](https://app.netlify.com/sites/bday-buddy/deploys)
+
 This ReactJS application demonstrates the basics of working with state, lists, and components.
 
 ## Figma URL
@@ -10,8 +11,11 @@ This ReactJS application demonstrates the basics of working with state, lists, a
 ## The development process included the following steps:
 
 **1. Data Import:** An array of objects containing information about people (name, age, and image URL) is used as the initial data source.
+
 **2. State Setup:** The data is integrated into the component using the useState hook for dynamic management.
+
 **3. List Rendering:** The List and Person components display the list of people using the map method.
+
 **4. Clear Button:** Functionality to clear the list by resetting the state has been implemented.
 
 ## Getting Started
@@ -31,7 +35,7 @@ Ensure you have the following installed:
 
 ```bash
 git clone https://github.com/yourusername/birthday-buddy.git
-cd airSlate-auth
+cd birthday-buddy
 ```
 
 2. **Install dependencies:**
